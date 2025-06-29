@@ -1,0 +1,10 @@
+easyocr
+fastapi[standard]
+lap
+opencv-python
+supervision
+uvicorn[standard]
+ultralytics
+deepface
+tf-keras
+cvzone

@@ -1,0 +1,14 @@
+services:
+  backend:
+    build: ./backend
+    container_name: roadlens-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/src/assets:/app/src/assets
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DISPLAY=host.docker.internal:0
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

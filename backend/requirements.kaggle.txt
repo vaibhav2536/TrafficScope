@@ -1,0 +1,11 @@
+easyocr
+fastapi
+lap
+opencv-python
+supervision
+uvicorn
+ultralytics
+tensorflow==2.12.0
+tf-keras
+deepface
+cvzone
