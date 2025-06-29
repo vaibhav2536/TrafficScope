@@ -114,10 +114,3 @@ To run both frontend and backend simultaneously:
 3. In the second, run the **frontend**.
 
 ---
-
-## ✅ Final Notes
-
-- Replace all occurrences of **Roadlens** with **TrafficScope**.
-- Make sure environment variables (if any) are configured in `.env` files inside `backend/` and `frontend/`.
-
----
